@@ -1,5 +1,6 @@
 package woodspring.springgreenview.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import org.bson.types.ObjectId;
@@ -23,7 +24,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class E_employee {
+public class E_employee implements Serializable {
 	
 	@Id
 	public ObjectId _id;
