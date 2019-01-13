@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Document(collection="KronosDump")
+@Document(collection="e_employee")
 @Getter
 @Setter
 @NoArgsConstructor

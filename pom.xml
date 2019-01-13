@@ -17,7 +17,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<springdata.version>2.0.5.RELEASE</springdata.version>
+		<springdata.version>2.1.0.RELEASE</springdata.version>
+		
+		<!--  <springdata.version>2.0.5.RELEASE</springdata.version> -->
 	</properties>
 
 	<dependencies>
@@ -54,6 +56,21 @@
 			<artifactId>spring-data-commons</artifactId>
 			<version>${springdata.version}</version>
 		</dependency>
+		<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-mongodb</artifactId>
+    <version>${springdata.version}</version>
+</dependency>
+    
+<!--  
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-releasetrain</artifactId>
+    <version>Lovelace-M3</version>
+    <type>pom</type>
+    <scope>import</scope>
+</dependency>
+-->		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

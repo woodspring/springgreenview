@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Document(collection="F_physician")
+@Document(collection="f_physician")
 @Getter
 @Setter
 @NoArgsConstructor
